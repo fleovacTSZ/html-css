@@ -1,0 +1,10 @@
+table, td, th{
+    border-width: 2px;
+    border-color: black;
+    height: 30px;
+    text-align: right;
+    vertical-align: bottom;
+    horiz-align: right;
+    border-style: dashed;
+    border-collapse: collapse;
+}

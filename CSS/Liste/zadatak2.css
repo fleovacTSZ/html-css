@@ -1,0 +1,9 @@
+ol li{
+    background: blue;
+}
+ol{
+    background: blue;
+}
+ul{
+    list-style-image: url("images/te.jpg");
+}
