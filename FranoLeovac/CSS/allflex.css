@@ -1,49 +1,49 @@
-.x-os-pocetak {
+.justify-content-flex-start {
     justify-content: flex-start;
 }
-.x-os-kraj {
+.justify-content-flex-end {
     justify-content: flex-end;
 }
-.x-os-centar {
+.justify-content-center {
     justify-content: center;
 }
-.x-os-mjesta-izmedju {
+.justify-content-space-between {
     justify-content: space-between;
 }
-.x-os-mjesta-odasvud {
+.justify-content-space-around {
     justify-content: space-around;
 }
-.y-os-pocetak {
+.align-items-flex-start {
     align-items: flex-start;
 }
-.y-os-kraj {
+.align-items-flex-end {
     align-items: flex-end;
 }
-.y-os-centar {
+.align-items-center {
     align-items: center;
 }
-.stupci {
+.flex-direction-column {
     flex-direction: column;
 }
-.stupci-reverse {
+.flex-direction-column-reverse {
     flex-direction: column-reverse;
 }
-.redci {
+.flex-direction-row {
     flex-direction: row;
 }
-.redci-reverse {
+.flex-direction-row-reverse {
     flex-direction: row-reverse;
 }
-.po-redu {
+.order-1 {
     order: 1;
 }
-.y-os-pocetak-pojedinacno {
+.align-self-flex-start {
     align-self: flex-start;
 }
-.y-os-kraj-pojedinacno {
+.align-self-flex-end {
     align-self: flex-end;
 }
-.y-os-centar-pojedinacno {
+.align-self-center {
     align-self: center;
 }
 .flex-wrap {
@@ -52,18 +52,15 @@
 .flex-wrap-reverse {
     flex-wrap: wrap-reverse;
 }
-.align-content-pocetak {
+.align-content-flex-start {
     align-content: flex-start;
 }
-.align-content-kraj {
+.align-content-flex-end {
     align-content: flex-end;
 }
-.align-content-centar {
+.align-content-center {
     align-content: center;
 }
-.align-content-izmedju {
-    align-content: space-around;
-}
-.align-content-around {
+.align-content-space-around {
     align-content: space-around;
 }
