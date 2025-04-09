@@ -1,0 +1,42 @@
+header{
+    width:100%;
+    height:100px;
+    background-color:yellow;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+}
+.glavninaslov{
+    color: goldenrod;
+    font-size: 40px;
+    font-weight: bolder;
+}
+main{
+    width:100%;
+    background-color:orange;
+}
+footer{
+    width:100%;
+    height:200px;
+    background-color:darkorange;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    bottom: 0;
+}
+.prvalista {
+    list-style-type: none;
+    display: flex;
+    text-align:center ;
+}
+li{
+    padding: 40px;
+}
+.megaaaa{
+    float: right;
+    width: 350px;
+}
+p{
+    font-size: 20px;
+}
