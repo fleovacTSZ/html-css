@@ -1,0 +1,62 @@
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: black;
+}
+.headerprvi{
+    background-color: black;
+}
+.headerdrugi{
+    background-color: orangered;
+}
+
+
+h1{
+    margin: auto;
+}
+.h1prvi{
+    color: white;
+}
+.h1drugi{
+    color: yellow;
+}
+.glavninaslov{
+    display: flex;
+    align-self: center;
+}
+
+main{
+    width:100%;
+}
+.prvalista{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+;
+}li{
+    padding: 25px;
+ }
+
+footer{
+    width:100%;
+    height:200px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.megaaaa{
+    float: right;
+    width: 450px;
+}
+
+.share-tech-regular {
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p{
+    font-family: "Share Tech", sans-serif;
+}
