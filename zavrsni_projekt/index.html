@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fast Food Restorania</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="flexbox.css">
+</head>
+<body>
+<header class="stupci y-os-centar headerindex x-os-centar">
+  <h1 >Dobrodošli u svijet fast fooda!</h1>
+  <p> Ovo je stranica samo za ove restorane: KFC, MCdonald's, Raising Cane's, Burger King </p>
+
+</header>
+
+<main class="stupci y-os-centar mainindex">
+
+  <section class="forma  oswald-font ">
+    <h2>Kontaktirajte nas za posao </h2>
+    <form>
+      <label for="ime">Ime:</label>
+      <input type="text" id="ime" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="poruka">Nešto o sebi:</label>
+      <textarea id="poruka" rows="4" required></textarea>
+
+      <label for="koji">U kojem restoranu želite raditi</label>
+      <textarea id="koji" rows="4" required></textarea>
+
+      <button type="submit">Pošalji</button>
+    </form>
+  </section>
+
+  <section class="forma  oswald-font ">
+    <form action="#" method="post">
+      <h2>Narudžba hrane</h2>
+
+      <label for="ime1">Ime i prezime:</label>
+      <input type="text" id="ime1" name="ime" required>
+
+      <label for="adresa">Adresa dostave:</label>
+      <input type="text" id="adresa" name="adresa" required>
+
+      <label for="restoran">Odaberite restoran:</label>
+      <select id="restoran" name="restoran" required>
+        <option value="">-- Odaberite restoran --</option>
+        <option value="mcdonalds">McDonald's</option>
+        <option value="kfc">KFC</option>
+        <option value="raising_canes">Raising Cane's</option>
+        <option value="burger_king">Burger King</option>
+      </select> <br>
+
+      <button type="submit">Pošalji narudžbu</button>
+    </form>
+
+
+  </section>
+
+
+</main>
+
+
+<footer>
+  <nav>
+    <ul class="redci x-os-centar os" >
+      <li><a href="index.html">Početna</a></li>
+      <li><a href="kfc.html">KFC</a></li>
+      <li><a href="mcdonalds.html">McDonald's</a></li>
+      <li><a href="raisingcanes.html">Raising Cane's</a></li>
+      <li><a href="burgerking.html">Burger King</a></li>
+    </ul>
+  </nav>
+
+</footer>
+</body>
+</html>

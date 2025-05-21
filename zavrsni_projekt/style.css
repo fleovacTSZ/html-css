@@ -1,0 +1,166 @@
+/* RESET & FONT */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+header {
+    color: white;
+    padding: 1rem;
+    display: flex;
+}
+
+.headerindex{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 150px;
+}
+
+.headerMC{
+    background-color: red
+
+}
+
+.headerRC{
+    background-color: 	#B20000;
+
+}
+
+.headerBurger{
+    background-color: #D62300;
+
+}
+
+.headerKFC{
+    background-color: #d9232e;
+    height: 100px;
+
+}
+
+
+/* NAVIGACIJA */
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* MAIN CONTENT */
+
+.mainindex{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+
+}
+
+.mainMC{
+    width: 100%;
+
+}
+.mainRC{
+    width: 100%;
+    background-color: #F9F9F9;
+}
+
+.mainBurger{
+    width: 100%;
+    background-color: #F5EBDC;
+}
+.mainKFC{
+    width: 100%;
+    background-color: white;
+}
+
+/* FOOTER */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.footerMC{
+    background-color: darkorange;
+
+}
+
+.footerKFC{
+    background-color: #d9232e;
+}
+
+
+.footerBurger{
+    background-color: #4C2A1E;
+
+}
+
+
+.footerRC{
+    background-color: #222222;
+
+}
+
+/* FORMA (na index.html) */
+.forma {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.forma label, .forma input, .forma textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.forma button {
+    background: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.oswald-font {
+             font-family: "Oswald", sans-serif;
+             font-optical-sizing: auto;
+             font-weight: 300;
+             font-style: normal;
+         }
+video{
+    float: right;
+
+}
+.mcdonaldslogo {
+    float: left;
+}
+.big-mac-fries{
+    float: right;
+}
+p{
+    font-size: larger;
+}
+h1{
+    font-size: xxx-large;
+}
+.BKlogoo{
+    float: right;
+}
