@@ -22,22 +22,22 @@ header {
 }
 
 .headerMC{
-    background-color: red
+    background-color: black;
 
 }
 
 .headerRC{
-    background-color: 	#B20000;
+    background-color: black;
 
 }
 
 .headerBurger{
-    background-color: #D62300;
+    background-color: black;
 
 }
 
 .headerKFC{
-    background-color: #d9232e;
+    background-color: black;
     height: 100px;
 
 }
@@ -64,25 +64,34 @@ nav a {
     margin: 0 auto;
     padding: 2rem;
 
+
 }
 
 .mainMC{
-    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+
 
 }
 .mainRC{
-    width: 100%;
-    background-color: #F9F9F9;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
 .mainBurger{
-    width: 100%;
-    background-color: #F5EBDC;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+
 }
 .mainKFC{
-    width: 100%;
-    background-color: white;
-}
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;}
+
+
 
 /* FOOTER */
 footer {
@@ -94,23 +103,23 @@ footer {
 }
 
 .footerMC{
-    background-color: darkorange;
+    background: #333;
 
 }
 
 .footerKFC{
-    background-color: #d9232e;
+    background: #333;
 }
 
 
 .footerBurger{
-    background-color: #4C2A1E;
+    background: #333;
 
 }
 
 
 .footerRC{
-    background-color: #222222;
+    background: #333;
 
 }
 
